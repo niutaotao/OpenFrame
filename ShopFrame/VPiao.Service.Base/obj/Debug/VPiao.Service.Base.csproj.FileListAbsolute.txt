@@ -1,0 +1,17 @@
+F:\MySource\ShopFrame\VPiao.Service.Base\obj\Debug\VPiao.Service.Base.csprojResolveAssemblyReference.cache
+F:\MySource\ShopFrame\VPiao.Service.Base\bin\Debug\VPiao.Service.Base.dll
+F:\MySource\ShopFrame\VPiao.Service.Base\bin\Debug\VPiao.Service.Base.pdb
+F:\MySource\ShopFrame\VPiao.Service.Base\bin\Debug\Tao.Repository.User.dll
+F:\MySource\ShopFrame\VPiao.Service.Base\bin\Debug\EntityFramework.dll
+F:\MySource\ShopFrame\VPiao.Service.Base\bin\Debug\Tao.DAM.Dto.dll
+F:\MySource\ShopFrame\VPiao.Service.Base\bin\Debug\Tao.Repository.User.pdb
+F:\MySource\ShopFrame\VPiao.Service.Base\bin\Debug\EntityFramework.xml
+F:\MySource\ShopFrame\VPiao.Service.Base\bin\Debug\Tao.DAM.Dto.pdb
+F:\MySource\ShopFrame\VPiao.Service.Base\obj\Debug\VPiao.Service.Base.dll
+F:\MySource\ShopFrame\VPiao.Service.Base\obj\Debug\VPiao.Service.Base.pdb
+F:\MySource\ShopFrame\VPiao.Service.Base\bin\Debug\Tao.Infrastructure.Core.dll
+F:\MySource\ShopFrame\VPiao.Service.Base\bin\Debug\Microsoft.Practices.Unity.dll
+F:\MySource\ShopFrame\VPiao.Service.Base\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+F:\MySource\ShopFrame\VPiao.Service.Base\bin\Debug\Tao.Infrastructure.Core.pdb
+F:\MySource\ShopFrame\VPiao.Service.Base\bin\Debug\Microsoft.Practices.Unity.xml
+F:\MySource\ShopFrame\VPiao.Service.Base\bin\Debug\Microsoft.Practices.Unity.Configuration.xml

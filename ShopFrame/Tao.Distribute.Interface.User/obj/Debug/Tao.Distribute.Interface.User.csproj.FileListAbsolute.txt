@@ -1,0 +1,9 @@
+F:\MySource\ShopFrame\Tao.Distribute.Interface.User\obj\Debug\Tao.Distribute.Interface.User.csprojResolveAssemblyReference.cache
+F:\MySource\ShopFrame\Tao.Distribute.Interface.User\bin\Debug\Tao.Distribute.Interface.User.dll
+F:\MySource\ShopFrame\Tao.Distribute.Interface.User\bin\Debug\Tao.Distribute.Interface.User.pdb
+F:\MySource\ShopFrame\Tao.Distribute.Interface.User\bin\Debug\Tao.DAM.Request.dll
+F:\MySource\ShopFrame\Tao.Distribute.Interface.User\bin\Debug\Tao.DAM.Response.dll
+F:\MySource\ShopFrame\Tao.Distribute.Interface.User\bin\Debug\Tao.DAM.Request.pdb
+F:\MySource\ShopFrame\Tao.Distribute.Interface.User\bin\Debug\Tao.DAM.Response.pdb
+F:\MySource\ShopFrame\Tao.Distribute.Interface.User\obj\Debug\Tao.Distribute.Interface.User.dll
+F:\MySource\ShopFrame\Tao.Distribute.Interface.User\obj\Debug\Tao.Distribute.Interface.User.pdb

@@ -1,0 +1,15 @@
+F:\MySource\ShopFrame\Tao.Repository.User\bin\Debug\Tao.Repository.User.dll
+F:\MySource\ShopFrame\Tao.Repository.User\bin\Debug\Tao.Repository.User.pdb
+F:\MySource\ShopFrame\Tao.Repository.User\bin\Debug\Tao.DAM.Dto.dll
+F:\MySource\ShopFrame\Tao.Repository.User\bin\Debug\EntityFramework.dll
+F:\MySource\ShopFrame\Tao.Repository.User\bin\Debug\Tao.DAM.Dto.pdb
+F:\MySource\ShopFrame\Tao.Repository.User\bin\Debug\EntityFramework.xml
+F:\MySource\ShopFrame\Tao.Repository.User\obj\Debug\Tao.Repository.User.csprojResolveAssemblyReference.cache
+F:\MySource\ShopFrame\Tao.Repository.User\obj\Debug\Tao.Repository.User.dll
+F:\MySource\ShopFrame\Tao.Repository.User\obj\Debug\Tao.Repository.User.pdb
+F:\MySource\ShopFrame\Tao.Repository.User\bin\Debug\Tao.Infrastructure.Core.dll
+F:\MySource\ShopFrame\Tao.Repository.User\bin\Debug\Microsoft.Practices.Unity.dll
+F:\MySource\ShopFrame\Tao.Repository.User\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+F:\MySource\ShopFrame\Tao.Repository.User\bin\Debug\Tao.Infrastructure.Core.pdb
+F:\MySource\ShopFrame\Tao.Repository.User\bin\Debug\Microsoft.Practices.Unity.xml
+F:\MySource\ShopFrame\Tao.Repository.User\bin\Debug\Microsoft.Practices.Unity.Configuration.xml

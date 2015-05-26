@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Tao.DistributeService.User.Service1" CodeBehind="UserService.svc.cs" %>

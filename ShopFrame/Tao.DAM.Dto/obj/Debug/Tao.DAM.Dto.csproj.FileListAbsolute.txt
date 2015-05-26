@@ -1,0 +1,13 @@
+F:\MySource\ShopFrame\Tao.DAM.Dto\bin\Debug\Tao.DAM.Dto.dll
+F:\MySource\ShopFrame\Tao.DAM.Dto\bin\Debug\Tao.DAM.Dto.pdb
+F:\MySource\ShopFrame\Tao.DAM.Dto\bin\Debug\EntityFramework.dll
+F:\MySource\ShopFrame\Tao.DAM.Dto\bin\Debug\EntityFramework.xml
+F:\MySource\ShopFrame\Tao.DAM.Dto\obj\Debug\Tao.DAM.Dto.csprojResolveAssemblyReference.cache
+F:\MySource\ShopFrame\Tao.DAM.Dto\obj\Debug\Tao.DAM.Dto.dll
+F:\MySource\ShopFrame\Tao.DAM.Dto\obj\Debug\Tao.DAM.Dto.pdb
+F:\MySource\ShopFrame\Tao.DAM.Dto\bin\Debug\Tao.Infrastructure.Core.dll
+F:\MySource\ShopFrame\Tao.DAM.Dto\bin\Debug\Microsoft.Practices.Unity.dll
+F:\MySource\ShopFrame\Tao.DAM.Dto\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+F:\MySource\ShopFrame\Tao.DAM.Dto\bin\Debug\Tao.Infrastructure.Core.pdb
+F:\MySource\ShopFrame\Tao.DAM.Dto\bin\Debug\Microsoft.Practices.Unity.xml
+F:\MySource\ShopFrame\Tao.DAM.Dto\bin\Debug\Microsoft.Practices.Unity.Configuration.xml

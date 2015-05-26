@@ -1,0 +1,4 @@
+F:\MySource\ShopFrame\Tao.Infrastructure.Library\bin\Debug\Tao.Infrastructure.Library.dll
+F:\MySource\ShopFrame\Tao.Infrastructure.Library\bin\Debug\Tao.Infrastructure.Library.pdb
+F:\MySource\ShopFrame\Tao.Infrastructure.Library\obj\Debug\Tao.Infrastructure.Library.dll
+F:\MySource\ShopFrame\Tao.Infrastructure.Library\obj\Debug\Tao.Infrastructure.Library.pdb

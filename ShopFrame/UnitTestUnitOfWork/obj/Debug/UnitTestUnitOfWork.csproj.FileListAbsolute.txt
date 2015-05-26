@@ -1,0 +1,7 @@
+F:\MySource\ShopFrame\UnitTestUnitOfWork\bin\Debug\UnitTestUnitOfWork.dll
+F:\MySource\ShopFrame\UnitTestUnitOfWork\bin\Debug\UnitTestUnitOfWork.pdb
+F:\MySource\ShopFrame\UnitTestUnitOfWork\bin\Debug\UnitOfWorkTest.dll
+F:\MySource\ShopFrame\UnitTestUnitOfWork\bin\Debug\UnitOfWorkTest.pdb
+F:\MySource\ShopFrame\UnitTestUnitOfWork\obj\Debug\UnitTestUnitOfWork.csprojResolveAssemblyReference.cache
+F:\MySource\ShopFrame\UnitTestUnitOfWork\obj\Debug\UnitTestUnitOfWork.dll
+F:\MySource\ShopFrame\UnitTestUnitOfWork\obj\Debug\UnitTestUnitOfWork.pdb

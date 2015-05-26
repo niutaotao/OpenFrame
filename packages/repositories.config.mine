@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repositories>
+  <repository path="..\API.VPiao.cn\packages.config" />
+  <repository path="..\BackPayResult.VPiao.cn\packages.config" />
+  <repository path="..\Branch3.7.0.0\API.VPiao.cn\packages.config" />
+  <repository path="..\Branch3.7.0.0\BackPayResult.VPiao.cn\packages.config" />
+  <repository path="..\Branch3.7.0.0\Open.VPiao.cn\packages.config" />
+  <repository path="..\Branch3.7.0.0\Supplier.Mobile.cn\packages.config" />
+  <repository path="..\Branch3.7.0.0\Vpiao.cn\packages.config" />
+  <repository path="..\Branch3.7.0.0\VPiao.Mobile.cn\packages.config" />
+  <repository path="..\Branch3.7.0.0\VPiao.Portal\packages.config" />
+  <repository path="..\Branch3.7.0.0\VPiao.Supplier.cn\packages.config" />
+  <repository path="..\Open.VPiao.cn\packages.config" />
+  <repository path="..\Supplier.Mobile.cn\packages.config" />
+  <repository path="..\TestConsole\packages.config" />
+  <repository path="..\Trunk\API.VPiao.cn\packages.config" />
+  <repository path="..\Trunk\BackPayResult.VPiao.cn\packages.config" />
+  <repository path="..\Trunk\Open.VPiao.cn\packages.config" />
+  <repository path="..\Trunk\Regional.Supplier.cn\packages.config" />
+  <repository path="..\Trunk\Supplier.Mobile.cn\packages.config" />
+  <repository path="..\Trunk\Vpiao.cn\packages.config" />
+  <repository path="..\Trunk\VPiao.Mobile.cn\packages.config" />
+  <repository path="..\Trunk\VPiao.Portal\packages.config" />
+  <repository path="..\Trunk\VPiao.Supplier.cn\packages.config" />
+  <repository path="..\Vpiao.cn.Core\packages.config" />
+  <repository path="..\VPiao.cn\packages.config" />
+  <repository path="..\Vpiao.Infrastructure.Caching\packages.config" />
+  <repository path="..\VPiao.Infrastructure.Library\packages.config" />
+  <repository path="..\VPiao.Infrastructure.Web\packages.config" />
+  <repository path="..\VPiao.Mobile.cn\packages.config" />
+  <repository path="..\VPiao.Portal\packages.config" />
+  <repository path="..\VPiao.Supplier.cn\packages.config" />
+  <repository path="..\VPiao.Web\packages.config" />
+  <repository path="..\VPiaoUnitTes\packages.config" />
+</repositories>

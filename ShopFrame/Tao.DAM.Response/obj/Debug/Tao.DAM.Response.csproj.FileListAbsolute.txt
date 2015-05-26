@@ -1,0 +1,4 @@
+F:\MySource\ShopFrame\Tao.DAM.Response\bin\Debug\Tao.DAM.Response.dll
+F:\MySource\ShopFrame\Tao.DAM.Response\bin\Debug\Tao.DAM.Response.pdb
+F:\MySource\ShopFrame\Tao.DAM.Response\obj\Debug\Tao.DAM.Response.dll
+F:\MySource\ShopFrame\Tao.DAM.Response\obj\Debug\Tao.DAM.Response.pdb
