@@ -15,6 +15,11 @@ namespace Tao.Infrastructure.Core
     public abstract class UnityBuilder
     {
         /// <summary>
+        /// 配置文件路径
+        /// </summary>
+        private const string Directory = "Config";
+
+        /// <summary>
         /// 容器
         /// </summary>
         protected IUnityContainer Container;
@@ -48,7 +53,7 @@ namespace Tao.Infrastructure.Core
             {
                 this.Container = new UnityContainer();
                 DirectoryInfo i = new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory);
-                string configFilePath = Path.Combine(Path.Combine(i.Parent.FullName, ConfigurationManager.AppSettings["ConfigFilePath"]), configName);
+                string configFilePath = Path.Combine(Path.Combine(i.Parent.FullName, Directory), configName);
                 ExeConfigurationFileMap map = new ExeConfigurationFileMap();
                 map.ExeConfigFilename = configFilePath;
                 Configuration config = ConfigurationManager.OpenMappedExeConfiguration(map, ConfigurationUserLevel.None);
@@ -57,8 +62,7 @@ namespace Tao.Infrastructure.Core
             }
             catch (Exception ex)
             {
-                string msg = ex.Message.ToString();
-                throw ex;
+                throw new Exception(string.Format("加载unity文件失败,configName:{0},sectionName:{1},containerName:{2}", configName, sectionName, configName), ex);
             }
         }
 
@@ -70,40 +74,6 @@ namespace Tao.Infrastructure.Core
         public virtual T Resolve<T>()
         {
             return Container.Resolve<T>();
-        }
-
-        /// <summary>
-        /// 根据register 名称加载接口实例
-        /// </summary>
-        /// <typeparam name="T">接口类型</typeparam>
-        /// <param name="name">register 名称</param>
-        /// <returns></returns>
-        public virtual T Resolve<T>(string name)
-        {
-            return Container.Resolve<T>(name);
-        }
-
-        /// <summary>
-        /// 根据register名称及构造函数的参数加载接口实例
-        /// </summary>
-        /// <typeparam name="T">接口类型</typeparam>
-        /// <param name="name">register 名称</param>
-        /// <param name="parameters">构造参数</param>
-        /// <returns></returns>
-        public virtual T Resolve<T>(string name, ResolverOverride parameters)
-        {
-            return Container.Resolve<T>(name, parameters);
-        }
-
-        /// <summary>
-        /// 获取指定接口的默认配置的实例
-        /// </summary>
-        /// <typeparam name="T">接口类型</typeparam>
-        /// <param name="parameters">构造参数</param>
-        /// <returns></returns>
-        public virtual T Resolve<T>(ResolverOverride parameters)
-        {
-            return Container.Resolve<T>(parameters);
         }
 
         /// <summary>

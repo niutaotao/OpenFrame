@@ -10,7 +10,7 @@ namespace Tao.Infrastructure.Core
     public class HttpContextManager
     {
         public static void AddValue(object newValue)
-        {
+        {            
             string typeName = newValue.GetType().AssemblyQualifiedName;
             if (HttpContext.Current != null)
             {

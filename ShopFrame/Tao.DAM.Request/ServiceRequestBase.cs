@@ -43,15 +43,15 @@ namespace Tao.DAM.Request
         /// 客户端IP
         /// </summary>
         [DataMember]
-        public int ClientIp
+        public string ClientIp
         {
             get
             {
-                return _businessCode;
+                return _clientIp;
             }
             set
             {
-                _businessCode = value;
+                _clientIp = value;
             }
         }
     }

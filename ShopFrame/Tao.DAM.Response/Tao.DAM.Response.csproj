@@ -41,7 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ServiceReponseBase.cs" />
+    <Compile Include="ServiceResponseBase.cs" />
+    <Compile Include="ResponseResultBase.cs" />
     <Compile Include="User\UserInfoRsp.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

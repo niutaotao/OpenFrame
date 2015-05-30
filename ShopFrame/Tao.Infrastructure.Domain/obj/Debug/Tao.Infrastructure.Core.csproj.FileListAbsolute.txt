@@ -1,4 +1,3 @@
-F:\MySource\ShopFrame\Tao.Infrastructure.Domain\obj\Debug\Tao.Infrastructure.Core.csprojResolveAssemblyReference.cache
 F:\MySource\ShopFrame\Tao.Infrastructure.Domain\bin\Debug\Tao.Infrastructure.Core.dll
 F:\MySource\ShopFrame\Tao.Infrastructure.Domain\bin\Debug\Tao.Infrastructure.Core.pdb
 F:\MySource\ShopFrame\Tao.Infrastructure.Domain\bin\Debug\EntityFramework.dll
@@ -11,3 +10,4 @@ F:\MySource\ShopFrame\Tao.Infrastructure.Domain\bin\Debug\Microsoft.Practices.Un
 F:\MySource\ShopFrame\Tao.Infrastructure.Domain\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
 F:\MySource\ShopFrame\Tao.Infrastructure.Domain\obj\Debug\Tao.Infrastructure.Core.dll
 F:\MySource\ShopFrame\Tao.Infrastructure.Domain\obj\Debug\Tao.Infrastructure.Core.pdb
+F:\MySource\ShopFrame\Tao.Infrastructure.Domain\obj\Debug\Tao.Infrastructure.Core.csprojResolveAssemblyReference.cache

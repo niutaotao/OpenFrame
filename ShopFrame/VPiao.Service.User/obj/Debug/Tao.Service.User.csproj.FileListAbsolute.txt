@@ -7,8 +7,8 @@ F:\MySource\ShopFrame\VPiao.Service.User\bin\Debug\Tao.DAM.Response.dll
 F:\MySource\ShopFrame\VPiao.Service.User\bin\Debug\Tao.Infrastructure.Core.dll
 F:\MySource\ShopFrame\VPiao.Service.User\bin\Debug\Tao.Repository.User.dll
 F:\MySource\ShopFrame\VPiao.Service.User\bin\Debug\Tao.Service.Base.dll
-F:\MySource\ShopFrame\VPiao.Service.User\bin\Debug\Microsoft.Practices.Unity.dll
 F:\MySource\ShopFrame\VPiao.Service.User\bin\Debug\EntityFramework.dll
+F:\MySource\ShopFrame\VPiao.Service.User\bin\Debug\Microsoft.Practices.Unity.dll
 F:\MySource\ShopFrame\VPiao.Service.User\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
 F:\MySource\ShopFrame\VPiao.Service.User\bin\Debug\Tao.DAM.Dto.pdb
 F:\MySource\ShopFrame\VPiao.Service.User\bin\Debug\Tao.DAM.Request.pdb
@@ -16,8 +16,8 @@ F:\MySource\ShopFrame\VPiao.Service.User\bin\Debug\Tao.DAM.Response.pdb
 F:\MySource\ShopFrame\VPiao.Service.User\bin\Debug\Tao.Infrastructure.Core.pdb
 F:\MySource\ShopFrame\VPiao.Service.User\bin\Debug\Tao.Repository.User.pdb
 F:\MySource\ShopFrame\VPiao.Service.User\bin\Debug\Tao.Service.Base.pdb
-F:\MySource\ShopFrame\VPiao.Service.User\bin\Debug\Microsoft.Practices.Unity.xml
 F:\MySource\ShopFrame\VPiao.Service.User\bin\Debug\EntityFramework.xml
+F:\MySource\ShopFrame\VPiao.Service.User\bin\Debug\Microsoft.Practices.Unity.xml
 F:\MySource\ShopFrame\VPiao.Service.User\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
 F:\MySource\ShopFrame\VPiao.Service.User\obj\Debug\Tao.Service.User.dll
 F:\MySource\ShopFrame\VPiao.Service.User\obj\Debug\Tao.Service.User.pdb

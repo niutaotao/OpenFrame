@@ -8,7 +8,6 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Transactions;
-using Tao.Infrastructure.Core.IOC;
 
 namespace Tao.Infrastructure.Core.UnitOfWork
 {
@@ -96,21 +95,6 @@ namespace Tao.Infrastructure.Core.UnitOfWork
             }
         }
 
-        public void RegisterAdded(BaseEntity entityBase)
-        {
-            base.Entry<BaseEntity>(entityBase).State = System.Data.Entity.EntityState.Added;
-        }
-
-        public void RegisterChangeded(BaseEntity entityBase)
-        {
-            base.Entry<BaseEntity>(entityBase).State = System.Data.Entity.EntityState.Modified;
-        }
-
-        public void RegisterRemoved(BaseEntity entityBase)
-        {
-            base.Entry<BaseEntity>(entityBase).State = System.Data.Entity.EntityState.Deleted;
-        }
-
         public void OpenTransaction()
         {
             if (this.TransactionScope == null) //第一次打开事务
@@ -123,11 +107,16 @@ namespace Tao.Infrastructure.Core.UnitOfWork
         }
 
         #region DbContext Overrides
+        /// <summary>
+        /// ModelCreating加载所有所有实现IOnModelCreating的配置
+        /// 每个模块都有自己的映射配置
+        /// </summary>
+        /// <param name="modelBuilder"></param>
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
 
-            IEnumerable<IOnModelCreating> onModelCreatings = BuilderFactory.CreateAllOnModelCreatings();
+            IEnumerable<IOnModelCreating> onModelCreatings = UnitOfWorkFactory.CreateAllOnModelCreatings();
             foreach (IOnModelCreating item in onModelCreatings)
             {
                 item.OnModelCreating(modelBuilder);
@@ -138,6 +127,17 @@ namespace Tao.Infrastructure.Core.UnitOfWork
         public bool HasNoneDisposeTransaction()
         {
             return this.TransactionScope != null;
+        }
+
+        public IDbSet<TEntity> CreateSet<TEntity>() where TEntity : class
+        {
+            return base.Set<TEntity>();
+        }
+
+        public void Attach<TEntity>(TEntity item)
+            where TEntity : class
+        {
+            base.Entry<TEntity>(item).State = System.Data.Entity.EntityState.Unchanged;
         }
     }
 }
