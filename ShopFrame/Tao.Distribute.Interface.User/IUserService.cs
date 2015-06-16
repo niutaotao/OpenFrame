@@ -14,6 +14,6 @@ namespace Tao.Distribute.Interface.User
     interface IUserService
     {
         [OperationContract]
-        UserInfoRsp GetSupplierProductListByFilter(UserInfoRst request);
+        UserInfoRsp AddUser(UserInfoRst request);
     }
 }

@@ -11,8 +11,8 @@ namespace Tao.Service.Base
     /// <summary>
     /// 服务的抽象基类，提供工作者单元，控制service层需要实现该基类服务
     /// </summary>
-    public abstract class BaseService
-    {        
+    public abstract class BaseService : IBaseService
+    {
         /// <summary>
         /// 构造
         /// </summary>
@@ -76,6 +76,6 @@ namespace Tao.Service.Base
         protected void Commit()
         {
             this.UnitOfWork.Commit();
-        }        
+        }
     }
 }

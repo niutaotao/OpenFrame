@@ -2,4 +2,3 @@ F:\MySource\ShopFrame\UnitOfWorkTest\bin\Debug\UnitOfWorkTest.dll
 F:\MySource\ShopFrame\UnitOfWorkTest\bin\Debug\UnitOfWorkTest.pdb
 F:\MySource\ShopFrame\UnitOfWorkTest\obj\Debug\UnitOfWorkTest.dll
 F:\MySource\ShopFrame\UnitOfWorkTest\obj\Debug\UnitOfWorkTest.pdb
-F:\MySource\ShopFrame\UnitOfWorkTest\obj\Debug\UnitOfWorkTest.csprojResolveAssemblyReference.cache

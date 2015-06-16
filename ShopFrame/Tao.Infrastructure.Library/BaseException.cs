@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Tao.Infrastructure.Library
 {
-    class BaseException
+    public class BaseException : Exception
     {
+
     }
 }

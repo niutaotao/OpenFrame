@@ -10,11 +10,17 @@ using Tao.Service.Base;
 
 namespace Tao.Service.User
 {
-    public class UserService:BaseService
+    public class UserService : BaseUserService, IUserService
     {
+        /// <summary>
+        /// 增加用户
+        /// </summary>
+        /// <param name="userInfo"></param>
         public void AddUser(UserInfo userInfo)
         {
-            var userReporsitory = RepositoryFactory.Create<IUserInfoRepository>();
+            base.UserInfoRepository.Add(userInfo);
+            var unit = base.OpenTransaction();
+            unit.Commit();
         }
     }
 }

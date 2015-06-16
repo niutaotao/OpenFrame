@@ -3,4 +3,3 @@ F:\MySource\ShopFrame\Tao.DistributeService.User\bin\Tao.DistributeService.User.
 F:\MySource\ShopFrame\Tao.DistributeService.User\bin\Tao.DistributeService.User.pdb
 F:\MySource\ShopFrame\Tao.DistributeService.User\obj\Debug\Tao.DistributeService.User.dll
 F:\MySource\ShopFrame\Tao.DistributeService.User\obj\Debug\Tao.DistributeService.User.pdb
-F:\MySource\ShopFrame\Tao.DistributeService.User\obj\Debug\Tao.DistributeService.User.csprojResolveAssemblyReference.cache

@@ -45,21 +45,21 @@ namespace Tao.Infrastructure.Core.Repository
             this.GetSet().Add(entity);
         }
 
-        /// <summary>
-        /// 增加实体集
-        /// </summary>
-        /// <param name="entityList">实体集</param>
-        public void AddList(IEnumerable<TEntity> entityList)
-        {
-            if (entityList == null || entityList.Count() <= 0)
-            {
-                throw new Exception("仓储AddList，无效的实体参数");
-            }
-            for (var i = 0; i < entityList.Count(); i++)
-            {
-                this.GetSet().Add(entityList.ElementAt(i));
-            }
-        }
+        ///// <summary>
+        ///// 增加实体集
+        ///// </summary>
+        ///// <param name="entityList">实体集</param>
+        //public void AddList(IEnumerable<TEntity> entityList)
+        //{
+        //    if (entityList == null || entityList.Count() <= 0)
+        //    {
+        //        throw new Exception("仓储AddList，无效的实体参数");
+        //    }
+        //    for (var i = 0; i < entityList.Count(); i++)
+        //    {
+        //        this.GetSet().Add(entityList.ElementAt(i));
+        //    }
+        //}
 
         /// <summary>
         /// 删除实体
@@ -74,21 +74,21 @@ namespace Tao.Infrastructure.Core.Repository
             this.GetSet().Remove(entity);
         }
 
-        /// <summary>
-        /// 删除实体集
-        /// </summary>
-        /// <param name="entityList"></param>
-        public void RemoveList(IEnumerable<TEntity> entityList)
-        {
-            if (entityList == null || entityList.Count() <= 0)
-            {
-                throw new Exception("仓储RemoveList，无效的实体参数");
-            }
-            for (var i = 0; i < entityList.Count(); i++)
-            {
-                this.GetSet().Remove(entityList.ElementAt(i));
-            }
-        }
+        ///// <summary>
+        ///// 删除实体集
+        ///// </summary>
+        ///// <param name="entityList"></param>
+        //public void RemoveList(IEnumerable<TEntity> entityList)
+        //{
+        //    if (entityList == null || entityList.Count() <= 0)
+        //    {
+        //        throw new Exception("仓储RemoveList，无效的实体参数");
+        //    }
+        //    for (var i = 0; i < entityList.Count(); i++)
+        //    {
+        //        this.GetSet().Remove(entityList.ElementAt(i));
+        //    }
+        //}
 
         /// <summary>
         /// 根据唯一标识获取数据

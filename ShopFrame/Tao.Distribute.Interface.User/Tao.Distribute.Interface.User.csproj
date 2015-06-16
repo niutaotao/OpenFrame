@@ -45,6 +45,10 @@
     <Compile Include="UserService.svc.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Tao.Core.Controller\Tao.Core.csproj">
+      <Project>{99feb0c1-6e75-4641-9883-7053dd1cd051}</Project>
+      <Name>Tao.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Tao.DAM.Request\Tao.DAM.Request.csproj">
       <Project>{90d463c4-b059-4d90-88c6-41b465798e3b}</Project>
       <Name>Tao.DAM.Request</Name>
@@ -52,6 +56,14 @@
     <ProjectReference Include="..\Tao.DAM.Response\Tao.DAM.Response.csproj">
       <Project>{4c7a4ef4-859a-452f-b4b4-6546cf57c5a3}</Project>
       <Name>Tao.DAM.Response</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tao.Infrastructure.Domain\Tao.Infrastructure.Core.csproj">
+      <Project>{20756d6a-ff56-4cc9-b6da-a5ed241ed496}</Project>
+      <Name>Tao.Infrastructure.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VPiao.Service.Base\Tao.Service.Base.csproj">
+      <Project>{1fd07d5b-eda8-403b-8594-e8915a88f950}</Project>
+      <Name>Tao.Service.Base</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

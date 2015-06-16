@@ -29,7 +29,7 @@ namespace Tao.DAM.Dto
 
         /// <summary>
         /// 性别
-        /// 0-女，1-男
+        /// 0-未填，1-男，2-女
         /// </summary>
         [DataMember]
         public int Sex { get; set; }
